@@ -78,12 +78,5 @@ PRODUCT_PACKAGES += \
 #PRODUCT_PACKAGES += \
 #    vendor.blackberry.touchkeypad-service
 
-# Lokker (privileged system_ext app) + K12KB (product app)
-PRODUCT_PACKAGES += \
-    Lokker \
-    com.lokker.app.privapp-permissions \
-    K12KB \
-    DeviceSettings
-
 # Inherit from BlackBerry sdm660-common
 $(call inherit-product, device/blackberry/sdm660-common/common.mk)
