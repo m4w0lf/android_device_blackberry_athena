@@ -14,6 +14,9 @@ $(call inherit-product, device/blackberry/athena/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Add embedded apks stuff
+$(call inherit-product, vendor/embedded_apk/embedded_apk.mk)
+
 PRODUCT_BRAND := BlackBerry
 PRODUCT_DEVICE := athena
 PRODUCT_MANUFACTURER := TCL Technology
